@@ -50,7 +50,7 @@ body {
 .hero-title {
     color: var(--accent-color);
 }
-.button {
+button {
     color: var(--accent-color);
     background: var(--specific-color);
 }
@@ -82,13 +82,16 @@ h2, h3 {
 .portfolio-main {
     background: var(--primary-bg-color);
 }
-
+.button-second {
+    background: var(--specific-bg-color);
+    color: var(--title-text-color);
+}
 
 .advertising-name {
     color: var(--title-text-color);
 }
 .advertising-variety {
-    
+
 }
 /* footer */
 .footer {
