@@ -27,15 +27,32 @@ body {
     color: var(--specific-color);
 }
 .head-links {
-    
+ 
 }
 .studio-name {
-    color: var(--specific-color);
+    color: var(--title-text-color);
 }
 .studio-name:hover,
 .studio-name:focus {
+    color: var(--specific-color);
+}
+.studio-name.current {
+    color: var(--specific-color);
+}
+.mail-adress {
     color: var(--title-text-color);
 }
+.mail-adress:hover,
+.mail-adress:focus {
+    color: var(--specific-color);
+}
+.mail-adress.current {
+    color: var(--specific-color);
+}
+.phone-namber {
+    color: var(--primary-text-color);
+}
+
 .portfolio-name {
     color: var(--title-text-color);
 }
@@ -79,12 +96,26 @@ h2, h3 {
 }
 
 /* portfolio */
+.portfolio-name {
+    color: var(--title-text-color);
+}
+.portfolio-name:hover,
+.portfolio-name:focus {
+    color: var(--specific-color);
+}
+.portfolio-name.current {
+    color: var(--specific-color);
+}
 .portfolio-main {
     background: var(--primary-bg-color);
 }
 .button-first {
     color: var(--accent-color);
     background: var(--specific-color);
+}
+.button-first:hover,
+.button-first:focus {
+    background: var(--accent-bg-color);
 }
 .button-second {
     background: var(--specific-bg-color);
