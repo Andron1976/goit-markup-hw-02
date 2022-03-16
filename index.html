@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <p><span>Web</span>Studio</p>
+    <header class="header">
+      <p class="logotyp-head"><span class="logotyp-web">Web</span>Studio</p>
       <nav>
-        <ul>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+        <ul class="head-links list">
+          <li><a class="studio-name" href="">Студия</a>
+          <br><img src="images/finger.jpg" alt="finger" width="13"></li>
+          <li><a class="portfolio-name" href="">Портфолио</a></li>
+          <li><a class="contacts-name" href="">Контакты</a></li>
         </ul>
       </nav>
       <!--contact section-->
@@ -24,18 +25,19 @@
     </header>
     <main>
       <!--hero section-->
-      <section>
-        <h1>
+      <section class="hero-section">
+        <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
 
         <button type="button">Заказать услугу</button>
       </section>
+
       <!--successes section-->
-      <section>
+      <section class="successes-section">
         <h2>Наши преимущества</h2>
-        <ul>
+        <ul class="successes-links list">
           <li>
             <h3>Внимание к деталям</h3>
             <p>
@@ -67,53 +69,51 @@
         </ul>
       </section>
       <!--photo section-->
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="photo-section">
+        <h2 class="section-title">Чем мы занимаемся</h2>
+        <ul class="photo-links list">
           <li><img src="images/laptop.jpg" alt="laptop" width="370" /></li>
           <li><img src="images/phones.jpg" alt="phones" width="370" /></li>
           <li><img src="images/mozaika.jpg" alt="mozaika" width="370" /></li>
         </ul>
       </section>
       <!--team section-->
-      <section>
-        <h2>Наша команда</h2>
-        <ul>
+      <section class="team-section">
+        <h2 class="section-title">Наша команда</h2>
+        <ul class="team-links list">
           <li>
             <figure>
               <img src="images/dem.jpg" alt="dem" width="270" />
-              <figcaption>Игорь Демьяненко<br />Product Designer</figcaption>
+              <figcaption>Игорь Демьяненко</figcaption>
             </figure>
+            <span class="team-profession">Product Designer</span>
           </li>
           <li>
             <figure>
               <img src="images/rep.jpg" alt="rep" width="270" />
-              <figcaption>Ольга Репина <br />Frontend Developer</figcaption>
+              <figcaption>Ольга Репина</figcaption>
             </figure>
+            <span class="team-profession">Frontend Developer</span>
           </li>
           <li>
             <figure>
               <img src="images/tar.jpg" alt="tar" width="270" />
-              <figcaption>
-                Николай Тарасов <br />
-                Marketing
-              </figcaption>
+              <figcaption>Николай Тарасов</figcaption>
             </figure>
+            <span class="team-profession">Marketing</span>
           </li>
           <li>
             <figure>
               <img src="images/erm.jpg" alt="erm" width="270" />
-              <figcaption>
-                Михаил Ермаков <br />
-                UI Designer
-              </figcaption>
+              <figcaption>Михаил Ермаков</figcaption>
             </figure>
+            <span class="team-profession">UI Designer</span>
           </li>
         </ul>
       </section>
     </main>
-    <footer>
-      <p><span>Web</span>Studio</p>
+    <footer class="footer">
+      <p><span class="logotyp-web">Web</span>Studio</p>
       <address>г. Киев, пр-т Леси Украинки, 26</address>
       <address>info@devstudio.com</address>
       <address>+38 096 111 11 11</address>

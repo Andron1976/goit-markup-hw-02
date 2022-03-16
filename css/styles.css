@@ -1,0 +1,97 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #fff;
+    --specific-color: #2196f3;
+
+    --primary-bg-color: #e5e5e5;
+    --accent-bg-color: #2f303a;
+    --specific-bg-color: #f5f4fa;
+}
+body {
+    color: var(--primary-text-color);
+    background: var(--primary-bg-color);
+}
+.list {
+    list-style: none;
+}
+
+/* header */
+.header {
+    background: var(--accent-color);
+}
+.logotyp-head {
+    color: #000;
+}
+.logotyp-web {
+    color: var(--specific-color);
+}
+.head-links {
+    
+}
+.studio-name {
+    color: var(--specific-color);
+}
+.studio-name:hover,
+.studio-name:focus {
+    color: var(--title-text-color);
+}
+.portfolio-name {
+    color: var(--title-text-color);
+}
+.contacts-name {
+    color: var(--title-text-color);
+}
+
+/* hero */
+.hero-section {
+    background-color: var(--accent-bg-color);
+}
+.hero-title {
+    color: var(--accent-color);
+}
+.button {
+    color: var(--accent-color);
+    background: var(--specific-color);
+}
+
+/* sections */
+h2, h3 {
+    color: var(--title-text-color);
+}
+.section-title {
+
+}
+.successes-section {
+    background: var(--specific-bg-color);
+}
+.photo-section {
+    background: var(--specific-bg-color);
+}
+.team-section {
+    background: var(--primary-bg-color);
+}
+.team-links {
+    color: var(--title-text-color);
+}
+.team-profession {
+    color: var(--primary-text-color);
+}
+
+/* portfolio */
+.portfolio-main {
+    background: var(--primary-bg-color);
+}
+
+
+.advertising-name {
+    color: var(--title-text-color);
+}
+.advertising-variety {
+    
+}
+/* footer */
+.footer {
+    background: var(--accent-bg-color);
+    color: var(--accent-color);
+}
