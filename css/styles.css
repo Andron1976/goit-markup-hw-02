@@ -50,7 +50,7 @@ body {
 .hero-title {
     color: var(--accent-color);
 }
-button {
+.button-primary {
     color: var(--accent-color);
     background: var(--specific-color);
 }
@@ -81,6 +81,10 @@ h2, h3 {
 /* portfolio */
 .portfolio-main {
     background: var(--primary-bg-color);
+}
+.button-first {
+    color: var(--accent-color);
+    background: var(--specific-color);
 }
 .button-second {
     background: var(--specific-bg-color);
