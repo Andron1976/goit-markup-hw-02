@@ -102,8 +102,8 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1,88px;
+    cursor: pointer;
 }
-
 /* sections */
 h2, h3 {
     color: var(--title-text-color);
@@ -174,14 +174,13 @@ h2, h3 {
 }
 .button-first,
 .button-second {
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1,63;
+    cursor: pointer;
 }
 .advertising-name {
     color: var(--title-text-color);
-    font-family: Roboto;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
@@ -190,7 +189,6 @@ h2, h3 {
 .advertising-variety {
     color: var(--primary-text-color);
     text-decoration: none;
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -208,7 +206,6 @@ h2, h3 {
 }
 .address-footer {
     color: var(--accent-color);
-    font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71;
@@ -216,7 +213,6 @@ h2, h3 {
 .mail-footer,
 .phone-footer {
     color: rgba(255, 255, 255, 0.6);
-    font-family: Roboto;
     font-weight: 400;
     font-size: 14px;
     line-height: 1,71
